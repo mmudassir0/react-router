@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  margin: 0;
+  /* position: relative; */
+}
+a {
+  padding: 5px 100px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 800;
+  color: darkmagenta;
+  /* border-right: 1px solid black; */
+}
+a:hover {
+  background: greenyellow;
+}
+nav {
+  background: rgb(110, 249, 145);
+  padding: 5px 0;
+}
+.Link {
+  font-size: 15px;
+  padding: 0px;
+  border: none;
+}
+.footer {
+  background-color: #eee;
+  line-height: 30px;
+  text-align: center;
+  /* position: fixed; */
+  width: 100%;
+  bottom: 0;
+}
+.inner {
+  border: 1px solid black;
+  margin: 15px;
+  /* overflow-y: scroll; */
+  height: 200px;
+  min-width: 600px;
+}
