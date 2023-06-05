@@ -47,6 +47,7 @@ function App() {
               </Route>
             </Route>
             <Route path="blog" element={<Blog />} />
+            <Route path="/blog/:id" element={<Blog1 />} />
             <Route path="download" element={<Download />} />
           </Route>
         </Routes>

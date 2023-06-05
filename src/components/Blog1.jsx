@@ -11,7 +11,7 @@ const Blog1 = () => {
       .get(`https://jsonplaceholder.typicode.com/posts/${params.id}`)
       .then((res) => setdata(res.data));
   }, [params.id]);
-
+  console.log(data);
   return (
     <div>
       {data ? (
